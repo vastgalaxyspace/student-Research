@@ -14,7 +14,7 @@ const Research=new mongoose.Schema({
         {
             filepath:{type:String,required:true},
             uploadAt:{type:String,required:true},
-            filetype:{
+            fileType:{
                 type:String,
                 enum:['document','image','video'],
                 required:true
